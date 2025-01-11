@@ -1,0 +1,15 @@
+package nested.nested.ex1;
+
+//Network 갹채 안에서만 사용
+public class NetworkMessage {
+    private String content;
+
+
+    public NetworkMessage(String content){
+        this.content = content;
+    }
+
+    public void print(){
+        System.out.println("content = " + content);
+    }
+}
