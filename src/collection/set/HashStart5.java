@@ -32,8 +32,7 @@ public class HashStart5 {
             bucket.add(value);
         }
     }
-    private static boolean contains(LinkedList<Integer>[] buckets, int
-            searchValue) {
+    private static boolean contains(LinkedList<Integer>[] buckets, int searchValue) {
         int hashIndex = hashIndex(searchValue);
         LinkedList<Integer> bucket = buckets[hashIndex]; // O(1)
         return bucket.contains(searchValue); // O(n)
