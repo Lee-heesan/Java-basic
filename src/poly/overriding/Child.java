@@ -5,6 +5,6 @@ public class Child extends Parent{
 
     @Override
     public void method() {
-        System.out.println("Child method");
+        System.out.println("Child java_start.method");
     }
 }
