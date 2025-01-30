@@ -11,8 +11,8 @@ public class HashAndEqualsMain2 {
         System.out.println("m2.hashCode() = " + m2.hashCode());
         System.out.println("m1.equals(m2) = " + m1.equals(m2));
 
-        System.out.println("System,ref(m1): "+System.identityHashCode(m1));
-        System.out.println("System,ref(m2): "+System.identityHashCode(m2));
+        System.out.println("System,java_basic.ref(m1): "+System.identityHashCode(m1));
+        System.out.println("System,java_basic.ref(m2): "+System.identityHashCode(m2));
 
         set.add(m1);
         set.add(m2);

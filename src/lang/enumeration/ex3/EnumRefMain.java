@@ -6,9 +6,9 @@ public class EnumRefMain {
         System.out.println("class GOLD : "+ Grade.GOLD.getClass());
         System.out.println("class DIAMOND : "+ Grade.DIAMOND.getClass());
 
-        System.out.println("ref BASIC : "+ refValue(Grade.BASIC));
-        System.out.println("ref GOLD : "+ refValue(Grade.GOLD));
-        System.out.println("ref DIAMOND : "+ refValue(Grade.DIAMOND));
+        System.out.println("java_basic.ref BASIC : "+ refValue(Grade.BASIC));
+        System.out.println("java_basic.ref GOLD : "+ refValue(Grade.GOLD));
+        System.out.println("java_basic.ref DIAMOND : "+ refValue(Grade.DIAMOND));
     }
 
     private static String refValue(Grade grade){
